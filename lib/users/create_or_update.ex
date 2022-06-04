@@ -3,12 +3,12 @@ defmodule Flightex.Users.CreateOrUpdate do
   alias Users.Agent, as: UserAgent
   alias Users.User
 
-  def call(%{id: _id, name: _name, email: _email, cpf: cpf}) when is_integer(cpf) do
-    {:error, "cpf is integer"}
+  def call(%{name: _name, email: _email, cpf: cpf}) when is_integer(cpf) do
+    {:error, "Cpf must be a String"}
   end
 
-  def call(%{id: id, name: name, email: email, cpf: cpf}) do
-    User.build(name, email, cpf, id)
+  def call(%{name: name, email: email, cpf: cpf}) do
+    User.build(name, email, cpf)
     |> save_user()
   end
 
