@@ -9,8 +9,7 @@ defmodule Flightex.Bookings.CreateOrUpdate do
         local_destination: local_destination,
         user_id: user_id
       }) do
-    with {:ok, user} <- UsersAgent.get(user_id),
-         {:ok, booking} <- Booking.build(complete_date, local_origin, local_destination, user) do
+    with {:ok, booking} <- Booking.build(complete_date, local_origin, local_destination, user_id) do
       BookingsAgent.save(booking)
     else
       error -> error

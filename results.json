@@ -1,23 +1,8 @@
 {
   "excluded": [],
-  "failed": [
-    {
-      "describe": "call/1",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/create_or_update_test.exs",
-      "line": 13,
-      "module": "Elixir.Flightex.Bookings.CreateOrUpdateTest",
-      "test": "test call/1 when all params are valid, returns a valid tuple"
-    }
-  ],
+  "failed": [],
   "invalid": [],
   "passed": [
-    {
-      "describe": "build/4",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/users_test.exs",
-      "line": 9,
-      "module": "Elixir.Flightex.Users.UserTest",
-      "test": "test build/4 when all params are valid, returns the user"
-    },
     {
       "describe": "build/4",
       "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/users_test.exs",
@@ -27,31 +12,38 @@
     },
     {
       "describe": "build/4",
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/users_test.exs",
+      "line": 9,
+      "module": "Elixir.Flightex.Users.UserTest",
+      "test": "test build/4 when all params are valid, returns the user"
+    },
+    {
+      "describe": "build/4",
       "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_test.exs",
       "line": 7,
       "module": "Elixir.Flightex.Bookings.BookingTest",
       "test": "test build/4 when all params are valid, returns a booking"
     },
     {
-      "describe": "save/1",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_agent_test.exs",
-      "line": 15,
-      "module": "Elixir.Flightex.Bookings.AgentTest",
-      "test": "test save/1 when the param are valid, return a booking uuid"
+      "describe": "call/1",
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/create_or_update_test.exs",
+      "line": 13,
+      "module": "Elixir.Flightex.Bookings.CreateOrUpdateTest",
+      "test": "test call/1 when all params are valid, returns a valid tuple"
     },
     {
       "describe": "get/1",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_agent_test.exs",
-      "line": 34,
-      "module": "Elixir.Flightex.Bookings.AgentTest",
-      "test": "test get/1 when the user is found, return a booking"
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/user_agent_test.exs",
+      "line": 56,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is't founded, returns an error"
     },
     {
       "describe": "get/1",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_agent_test.exs",
-      "line": 53,
-      "module": "Elixir.Flightex.Bookings.AgentTest",
-      "test": "test get/1 when the user wasn't found, returns an error"
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/user_agent_test.exs",
+      "line": 43,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is found, returns the user"
     },
     {
       "describe": "save/1",
@@ -62,24 +54,24 @@
     },
     {
       "describe": "get/1",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/user_agent_test.exs",
-      "line": 43,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is found, returns the user"
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_agent_test.exs",
+      "line": 53,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test get/1 when the user wasn't found, returns an error"
     },
     {
       "describe": "get/1",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/user_agent_test.exs",
-      "line": 56,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is't founded, returns an error"
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_agent_test.exs",
+      "line": 34,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test get/1 when the user is found, return a booking"
     },
     {
-      "describe": "call/1",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/create_or_update_test.exs",
-      "line": 14,
-      "module": "Elixir.Flightex.Users.CreateOrUpdateTest",
-      "test": "test call/1 when all params are valid, return a tuple"
+      "describe": "save/1",
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_agent_test.exs",
+      "line": 15,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test save/1 when the param are valid, return a booking uuid"
     },
     {
       "describe": "call/1",
@@ -87,6 +79,13 @@
       "line": 35,
       "module": "Elixir.Flightex.Users.CreateOrUpdateTest",
       "test": "test call/1 when cpf is a integer, returns an error"
+    },
+    {
+      "describe": "call/1",
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/create_or_update_test.exs",
+      "line": 14,
+      "module": "Elixir.Flightex.Users.CreateOrUpdateTest",
+      "test": "test call/1 when all params are valid, return a tuple"
     }
   ],
   "skiped": []
