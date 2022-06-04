@@ -39,18 +39,18 @@
       "test": "test get/1 when the user is't founded, returns an error"
     },
     {
-      "describe": "get/1",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/user_agent_test.exs",
-      "line": 43,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is found, returns the user"
-    },
-    {
       "describe": "save/1",
       "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/user_agent_test.exs",
       "line": 18,
       "module": "Elixir.Flightex.Users.AgentTest",
       "test": "test save/1 when the user is saves, returns an tuple"
+    },
+    {
+      "describe": "get/1",
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/users/user_agent_test.exs",
+      "line": 43,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is found, returns the user"
     },
     {
       "describe": "get/1",
@@ -60,18 +60,18 @@
       "test": "test get/1 when the user wasn't found, returns an error"
     },
     {
-      "describe": "get/1",
-      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_agent_test.exs",
-      "line": 34,
-      "module": "Elixir.Flightex.Bookings.AgentTest",
-      "test": "test get/1 when the user is found, return a booking"
-    },
-    {
       "describe": "save/1",
       "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_agent_test.exs",
       "line": 15,
       "module": "Elixir.Flightex.Bookings.AgentTest",
       "test": "test save/1 when the param are valid, return a booking uuid"
+    },
+    {
+      "describe": "get/1",
+      "file": "/home/brainiac/projetos/pessoais/elixir/ignite-desafio-05-elixir/test/bookings/booking_agent_test.exs",
+      "line": 34,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test get/1 when the user is found, return a booking"
     },
     {
       "describe": "call/1",

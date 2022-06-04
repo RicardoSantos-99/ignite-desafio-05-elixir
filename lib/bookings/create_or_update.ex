@@ -1,7 +1,6 @@
 defmodule Flightex.Bookings.CreateOrUpdate do
   alias Flightex.Bookings.Booking
   alias Flightex.Bookings.Agent, as: BookingsAgent
-  alias Flightex.Users.Agent, as: UsersAgent
 
   def call(%{
         complete_date: complete_date,
