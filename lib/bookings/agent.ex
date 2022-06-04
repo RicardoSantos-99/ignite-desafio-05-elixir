@@ -15,7 +15,9 @@ defmodule Flightex.Bookings.Agent do
     {:ok, uuid}
   end
 
-  def get(uuid), do: Agent.get(__MODULE__, &get_booking(&1, uuid))
+  def get(uuid) do
+    Agent.get(__MODULE__, &get_booking(&1, uuid))
+  end
 
   defp get_booking(state, uuid) do
     case Map.get(state, uuid) do
